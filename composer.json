@@ -10,9 +10,6 @@
   ],
   "require": {
     "php": ">=7.3",
-    "igorw/get-in": "1.0.*",
-    "symfony/yaml": "2.7.*",
-    "league/flysystem": "1.0.*",
     "ext-redis": "*"
   },
   "require-dev": {
