@@ -1,0 +1,26 @@
+{
+  "name": "exts/cathy",
+  "description": "Cache key generation library for allowing your caching system to support 'path/ing/keys' easily :)",
+  "license": "MIT",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Lamonte Harris"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "igorw/get-in": "1.0.*",
+    "symfony/yaml": "2.7.*",
+    "league/flysystem": "1.0.*",
+    "ext-redis": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Exts\\Cathy\\": "src"
+    }
+  }
+}
